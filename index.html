@@ -103,11 +103,11 @@
         }
 
         .test-firework {
-            animation:firework 4s infinite;
+            animation:firework 2.5s infinite;
         }
 
         .firework-start {
-        animation:firework-start 4s infinite;
+        animation:firework-start 2.5s infinite;
         }
 
         .fireworks-container {
@@ -119,7 +119,7 @@
         height: 100%;
         max-width:218px;
         max-height:207px;
-        animation:firework-container 4s infinite;    
+        animation:firework-container 2.5s infinite;    
         }
 
         @keyframes firework-container {
@@ -455,7 +455,7 @@
             </svg>  
         </div>
         <audio controls class="audioElement">
-            <source src="song.mp3">
+            <source src="song.wav">
         </audio>  
 
         <div class="fireworks"> 
@@ -566,7 +566,7 @@
             buttoncontainer.style.display = "none";
             maincontainer.style.display = "flex";
 
-            //audioElement.play();
+            audioElement.play();
 
             }
         </script>
